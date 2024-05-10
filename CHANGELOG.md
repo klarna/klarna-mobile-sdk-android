@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.6.17] - 2024-05-10
+- Added support for customizing the appearance of the On-Site Messaging (OSM) view.
+- Fixed the "Learn more" text to not start from a new line in OSM view.
+- Fixed encoding issue with non-UTF8 characters in a merchant's app name.
+
 ## [2.6.16] - 2024-04-10
 - Fixed class conflict issues due to obfuscation.
 - Fixed conflicting FileProvider class manifest merger issue.
