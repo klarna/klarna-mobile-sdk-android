@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.6.23] - 2024-11-19
+- Fixed live camera preview for ID scanning in SDK WebViews.
+- Updated development and build JDK to Java 17 and AGP to version 8.
+
 ## [2.6.22] - 2024-10-30
 - Fixed an issue when a merchant's app name contains non-ASCII characters.
 
