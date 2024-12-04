@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.6.24] - 2024-12-04
 - Fixed Klarna badge padding in KlarnaOSMView.
-- Removed store redirects for missing external applications.
+- Removed Google Play redirects for missing external applications.
 
 ## [2.6.23] - 2024-11-19
 - Fixed live camera preview for ID scanning in SDK WebViews.
