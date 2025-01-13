@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.6.25] - 2025-01-10
+- Added support for Single sign-on using Custom Tabs.
+- Added handling of minimized Custom Tabs.
+- Updated UI for Sign in with Klarna button.
+
 ## [2.6.24] - 2024-12-04
 - Fixed Klarna badge padding in KlarnaOSMView.
 - Removed Google Play redirects for missing external applications.
