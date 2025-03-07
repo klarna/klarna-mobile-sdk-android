@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.6.27] - 2025-03-07
+
+- Updated consumer proguard rules to prevent issues with R8 full mode.
+- Removed IO operations from app startup initializer.
+- Fixed issue with cached configuration not being used prior to updates.
+- Fixed Sign in with Klarna button layout issues.
+- Added more internal lint checks for security improvements.
+
 ## [2.6.26] - 2025-03-04
 
 - Fixed an issue related to handling runtime permission requests.
