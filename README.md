@@ -28,8 +28,8 @@ and so much more in a single package!
 
 ### Documentations
 
-* [Overview](https://docs.klarna.com/mobile-sdk/)
-* [Using the Mobile SDK on Android](https://docs.klarna.com/mobile-sdk/android/)
+* [Overview](https://docs.klarna.com/payments/mobile-payments/before-you-start/introduction-mobile-integrations/)
+* [Using the Mobile SDK on Android](https://docs.klarna.com/payments/mobile-payments/integrate-with-mobile-sdk/android/native-view/)
 
 ### Changelog
 * [Android Changelog](https://github.com/klarna/klarna-mobile-sdk-android/blob/master/CHANGELOG.md)
