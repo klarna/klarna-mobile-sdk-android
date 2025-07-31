@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.7.1] - 2025-07-30
+
+- Added transparency to KlarnaPaymentView.
+- Added distribution relocation for sdk-basic and sdk-full variants prior to discontinuation.
+- Added internal modularization for future product modules and improved maintenance.
+- Replaced Gson with Kotlin Serialization.
+- Internal fixes and improvements.
+
 ## [2.7.0] - 2025-06-19
 
 - Added Klarna Express Checkout integration with a native button.
