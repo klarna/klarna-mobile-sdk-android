@@ -1,0 +1,33 @@
+name: Create Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Read latest version from CHANGELOG.md
+        id: changelog
+        run: |
+          echo "Reading latest version from CHANGELOG.md..."
+          version=$(grep -m 1 -oP '^## \[\K[0-9]+\.[0-9]+\.[0-9]+' CHANGELOG.md)
+          if [ -z "$version" ]; then
+            echo "❌ No version found in CHANGELOG.md!"
+            exit 1
+          fi
+          echo "✅ Latest version is $version"
+          echo "version=$version" >> $GITHUB_OUTPUT
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.changelog.outputs.version }}
+          name: ${{ steps.changelog.outputs.version }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
