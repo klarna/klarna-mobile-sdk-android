@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added support for Klarna Payment integration as part of Klarna Network.
 - Added Shopping Session integration as part of Klarna Network.
-- Added two new modules `klarna-network-core` and `klarna-payment` to support Klarna Network with least size impact to the integrating applications.
+- Added two new modules `klarna-network-core` and `klarna-network-payment` to support Klarna Network with least size impact to the integrating applications.
 - Added more secure persistence support, including supporting expiry time for stored data.
 - Added theme property to WebViews to support dark mode in Klarna components.
 - Internal optimizations and improvements.
