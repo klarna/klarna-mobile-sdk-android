@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.10.0] - 2025-11-13
+
+- Added Klarna Messaging integration as part of Klarna Network with new `klarna-network-messaging` module.
+- Added Klarna Payment Presentation content fetching to KlarnaPayment integration.
+- Added improved support for links inside KlarnaOSMView with System WebViews.
+- Fixed configuration change handling for features using System WebViews.
+- Fixed an issue where a false positive log for callback call was being reported.
+
 ## [2.9.1] - 2025-10-22
 
 - Added file name sanization to file sharing feature to address app file manipulation vulnerabilities.
