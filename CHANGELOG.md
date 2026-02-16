@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.11.0] - 2026-02-12
+
+- Added Klarna Identity integration as part of Klarna Network with new `klarna-network-identity` module.
+- Added ondemand services and subscription options to `KlarnaPaymentRequestData`.
+- Added `klarnaNetworkSessionToken` property to `KlarnaConfiguration` when initializing Klarna.
+- Added `klarnaNetworkSessionToken` property to `KlarnaPaymentRequestStateContext` object.
+- Added `paymentOptionId` to `KlarnaPaymentRequestData` object.
+- Added support for app-to-app handover flow to Klarna Payment integration.
+- Added support to fetch Klarna Network Session Token.
+- Added support to clear Klarna Network Session login state.
+- Added `icon` and `paymentButton` properties to `KlarnaPaymentPresentationPaymentOption` object.
+- Internal changes and optimizations to Klarna component messaging within WebView integration types.
+
 ## [2.10.1] - 2025-12-03
 
 - Optimized message queues for receivers in WebViews.
