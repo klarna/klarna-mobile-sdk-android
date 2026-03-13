@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.11.1] - 2026-03-13
+
+- Fixed an issue where internal weak references were removed by aggressive R8 optimizations.
+- Fixed Android Custom Tabs redirect flows issues when different task affinities are used in the host application.
+- Fixed an issue where browser and Android Custom Tabs redirect flows were not working when the application lifecycle is changed during the flow.
+- Fixed memory leaks in Android Custom Tabs redirect flows.
+- Added explicit ViewModelProvider.Factory implementations to prevent crashes when provider factory is overridden by the host application.
+- Removed unused internal methods.
+
 ## [2.11.0] - 2026-02-12
 
 - Added Klarna Identity integration as part of Klarna Network with new `klarna-network-identity` module.
