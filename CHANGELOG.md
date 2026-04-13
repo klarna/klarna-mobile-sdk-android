@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.11.2] - 2026-04-13
+
+- Separated WebView related implementations to a new `klarna-core-webview` module to reduce app size for integrating apps that do not use WebView features.
+- Updated payment presentation intent values.
+- Updated payment and identity button configuration type and intent parameters.
+
 ## [2.11.1] - 2026-03-13
 
 - Fixed an issue where internal weak references were removed by aggressive R8 optimizations.
