@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.12.0] - 2026-06-23
+
+- Added Compose support for Klarna Network Payment Button and Klarna Network Identity Button with new `klarna-network-payment-button-compose` and `klarna-network-identity-button-compose` modules.
+- Added Compose support for Klarna Network Messaging with new `klarna-network-messaging-compose` module.
+- Disabled local file access and migrated to `WebViewAssetLoader` in WebViews by default for improved security.
+- Fixed lifecycle handling of KlarnaStandaloneWebView to prevent WebView errors and crashes.
+- Fixed inconsistent internal messages with Klarna components in WebViews.
+- Removed deprecated/unused messages with Klarna components in WebViews.
+- :warning: **Deprecation**: KCO integrations and support has been officially deprecated and will be removed in future versions of the SDK. Please migrate to [Kustom Mobile SDK](https://docs.kustom.co/contents/checkout/integrate-kco-in-your-mobile/introduction) if you are integrating KCO via `KlarnaCheckoutView`, `KlarnaHybridSDK` or `KlarnaStandaloneWebView`.
+
 ## [2.11.5] - 2026-06-09
 
 - Separated Klarna Network button integrations into `klarna-network-identity-button` and `klarna-network-payment-button` modules.
