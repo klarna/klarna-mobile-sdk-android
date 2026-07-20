@@ -9,11 +9,12 @@ Klarna Mobile SDK is the best and only official way to integrate Klarna products
 We offer a seamless and straightforward way to 
 
 * Render individual payment methods through **Klarna Payments**
-* Present a fully-featured checkout through **Klarna Checkout**
 * Give your customers a running start into the purchasing flow with **On-site Messaging**
 * Let customers quickly and safely sign for your platform using their Klarna account via **Sign in with Klarna**
 
 and so much more in a single package!
+
+**Important:** ⚠️ *KCO integrations and support has been officially deprecated and will be removed in future versions of the SDK. Please migrate to [Kustom Mobile SDK](https://docs.kustom.co/contents/checkout/integrate-kco-in-your-mobile/introduction) if you are integrating KCO via `KlarnaCheckoutView`, `KlarnaHybridSDK` or `KlarnaStandaloneWebView`.*
 
 ### SDK for Other Platforms
 
