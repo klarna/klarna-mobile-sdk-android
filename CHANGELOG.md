@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.13.1] - 2026-07-24
+
+- Enabled feature flags for securing the SDK features even further, adding more security checks and validations to prevent misuse of the SDK.
+- Improved the internal handling of the return URL to prevent inconsistencies and improve reliability.
+- Fixed an issue where fullscreen browser could remain undestroyed when it had been created but never shown.
+
 ## [2.13.0] - 2026-07-23
 
 - Added `KlarnaPaymentPresentationContent` support to `KlarnaPaymentButton` via new constructor or the `setContent` method.
