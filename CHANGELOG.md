@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.14.0] - 2026-09-03
+
+- Made all `KlarnaSupplementaryPurchaseData` parameters optional, defaulting to `null`, for parity with the iOS SDK.
+- Removed internal-only types from the public API.
+- The loading indicator shown in Klarna buttons is now styled by the SDK, so it renders consistently regardless of the host app's theme.
+- Fixed an issue where the authentication browser was closed when the user was redirected from a third-party app to the host app.
+- Fixed an issue where nested values in a merchant event's body were dropped.
+
 ## [2.13.2] - 2026-08-11
 
 - Improved the redirect flow to return the user to the host app when a process death occurs while the authentication browser is open.
