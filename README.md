@@ -60,7 +60,7 @@ This project is licensed under
 
 <!-- Markdown images & links -->
 [maven-image]: https://img.shields.io/maven-metadata/v/https/x.klarnacdn.net/mobile-sdk/com/klarna/mobile/sdk/maven-metadata.xml.svg?style=flat-square
-[maven-url]: https://docs.klarna.com/mobile-sdk/android/get-started/#adding-the-sdk-as-a-dependency
+[maven-url]: https://docs.klarna.com/acquirer/klarna/mobile-payments/integrate-with-mobile-sdk/android/native-view/#import-the-sdk
 [platform-image]: https://img.shields.io/badge/platform-Android-lightgrey?style=flat-square
 [license-image]: https://img.shields.io/github/license/klarna/klarna-mobile-sdk-android?style=flat-square
 [license-url]: https://github.com/klarna/klarna-mobile-sdk-android/blob/master/LICENSE
