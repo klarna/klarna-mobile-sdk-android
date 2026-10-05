@@ -18,7 +18,7 @@ and so much more in a single package!
 
 ### SDK for Other Platforms
 
-* [iOS](https://github.com/klarna/klarna-mobile-sdk)
+* [iOS](https://github.com/klarna/klarna-mobile-sdk-ios)
 * [React Native](https://github.com/klarna/react-native-klarna-inapp-sdk)
 * [Flutter](https://github.com/klarna/klarna-mobile-sdk-flutter)
 
