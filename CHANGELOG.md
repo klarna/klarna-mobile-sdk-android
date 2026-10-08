@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.16.0] - 2026-10-08
+
+- Added the `klarna-webview-hybrid` and `klarna-webview-standalone` modules, so integrators who only need the Hybrid SDK or `KlarnaStandaloneWebView` can depend on them directly instead of the full SDK.
+- `com.klarna.mobile:sdk` continues to include both modules, so existing integrations need no changes.
+
 ## [2.15.1] - 2026-09-28
 
 - Fixed an issue where payment presentation links could not resolve an `Activity` context.
