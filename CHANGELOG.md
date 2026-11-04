@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.16.1] - 2026-11-03
+
+- :warning: **Deprecation**: `KlarnaStandaloneWebView.evaluateJavascript` is deprecated, as evaluating arbitrary JavaScript is being phased out. It will be removed in a future release.
+- Fixed an issue where fullscreen views, links and external apps could be opened from an `Activity` that was no longer on screen.
+- Fixed an issue where a Klarna Network loading overlay restored by the system, for example after process death, stayed on screen when no flow was showing it.
+- Fixed the published POM files of `klarna-network-messaging-compose`, `klarna-network-identity-button-compose` and `klarna-network-payment-button-compose`, which listed the Compose BOM instead of the Jetpack Compose libraries these modules depend on.
+- `KlarnaMessagingPlacementView` now sends the impression request once the placement has been rendered.
+- Internal improvements to analytics and to the JavaScript injected into web views.
+
 ## [2.16.0] - 2026-10-08
 
 - Added the `klarna-webview-hybrid` and `klarna-webview-standalone` modules, so integrators who only need the Hybrid SDK or `KlarnaStandaloneWebView` can depend on them directly instead of the full SDK.
