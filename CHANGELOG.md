@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.17.0] - 2026-11-23
+
+- Added a redirectUrl parameter to Sign in with Klarna (KlarnaSignInSDK and KlarnaSignInButton) so that external apps such as BankID can return to your app without interrupting the sign-in flow.
+- Sign in with Klarna and Klarna Network Identity now always use the SDK's own app return URL, so external apps such as BankID reopen the app correctly.
+- Fixed an issue where adding a web view that was already tracked could cause unexpected behavior.
+- Raised the compileSdk and targetSdk to 36.
+- Fixed the memory leak in the SDK's lifecycle observation.
+
 ## [2.16.1] - 2026-11-03
 
 - :warning: **Deprecation**: `KlarnaStandaloneWebView.evaluateJavascript` is deprecated, as evaluating arbitrary JavaScript is being phased out. It will be removed in a future release.
